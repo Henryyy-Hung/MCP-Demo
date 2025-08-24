@@ -7,11 +7,13 @@
 ## 相关命令
 
 ### **启动MCP服务器**
+
 ```bash
 uv run human_in_the_loop
 ```
 
 ### **构建项目（生成wheel文件）**
+
 ```bash
 uv build
 ```
@@ -49,7 +51,8 @@ uv run mcp dev ./src/human_in_the_loop/__main__.py
 
 ## UV命令
 
-### 添加包
+### 添加包W
+
 ```bash
 uv add <package-name>
 ```
