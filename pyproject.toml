@@ -1,19 +1,19 @@
 [project]
-name = "hw-mcp-human-in-the-loop"
+name = "hw-mcp-demo"
 version = "0.1.0"
 description = "Huawei MCP Plugin - Human in the Loop"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "hatchling>=1.27.0",
     "mcp[cli]>=1.13.1",
 ]
 
 [project.scripts]
-human_in_the_loop = "human_in_the_loop:main"
+mcp_demo = "mcp_demo:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/human_in_the_loop"]
+packages = ["src/mcp_demo"]

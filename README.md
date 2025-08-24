@@ -9,7 +9,7 @@
 ### **启动MCP服务器**
 
 ```bash
-uv run human_in_the_loop
+uv run mcp_demo
 ```
 
 ### **构建项目（生成wheel文件）**
@@ -23,7 +23,7 @@ uv build
 注意，所指向的文件必须创建一个名为`mcp`或`server`的实例。
 
 ```bash
-uv run mcp dev ./src/human_in_the_loop/__main__.py
+uv run mcp dev ./src/mcp_demo/__main__.py
 ```
 
 ## 相关配置
@@ -42,7 +42,7 @@ uv run mcp dev ./src/human_in_the_loop/__main__.py
         "--directory",
         "C:\\Users\\henry\\PycharmProjects\\MyFirstMCP",
         "run",
-        "human_in_the_loop"
+        "mcp_demo"
       ]
     }
   }
