@@ -9,7 +9,7 @@
 ### **启动MCP服务器**
 
 ```bash
-uv run mcp_demo
+uv run hw-mcp-demo
 ```
 
 ### **构建项目（生成wheel文件）**

@@ -1,6 +1,6 @@
 [project]
 name = "hw-mcp-demo"
-version = "0.1.0"
+version = "0.1.4"
 description = "Huawei MCP Plugin - Human in the Loop"
 requires-python = ">=3.10"
 dependencies = [
@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp_demo = "mcp_demo:main"
+"hw-mcp-demo" = "mcp_demo:main"
 
 [build-system]
 requires = ["hatchling"]
