@@ -8,7 +8,7 @@ from mcp_demo.views import dialogue
 
 
 def create_server() -> FastMCP:
-    mcp_server = FastMCP(name="hw-mcp-demo", log_level="ERROR")
+    mcp_server = FastMCP(name="hw-mcp-demo")
 
     @mcp_server.tool(
         title="Ask Human",
